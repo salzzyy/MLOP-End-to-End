@@ -1,0 +1,21 @@
+1-Create project template by executing template.py file 
+2-Write the code on setup.py and project.toml file to import local pacakges
+3-Create a virtual env, activate it and install the requirements from requirement.txt 
+conda create -n proj1 python=3.10 -y 
+conda activate proj1 
+add requires modules to requirements.txt 
+Do "pip install -r requirements.txt" 
+4.- Do a "pip list" on the terminal to make sure i have local pakages installed 
+
+________________________MONGODB Setup___________________
+5- Sign up to MOngoDB Atlas and create a new project by just providing it a name then next create.
+6-From "Create a cluster", screen, hit "create , Selecct MO service keeping other services as default, hit "create deployment"
+7-Setup the username and password and then create DB user. 
+8- GO TO "network access" and add ip adress - "0.0.0.0/0" so that we can access it froom anywhere.
+Setup the username and password and then create DB user
+9-Go to "network access" and add ip adress - "0.0.0/0" so that we can access it froom anywhere
+10- Create a folder "notebok" >> create file"mogoDB_demo.ipynb" >> select kernel >>python kernel>> visa >>
+11- kaggle data link -> 
+12- Push your dtaa to mongo db database from your python notebook.
+13- Go to mongoDB Atlas >>Database >>browse collection >> see your data in key value format 
+
